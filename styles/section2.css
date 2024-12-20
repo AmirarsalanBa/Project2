@@ -1,0 +1,39 @@
+.section2 {
+  background-image: url("../media/section2-bg.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.section2-contents {
+  display: flex;
+  width: 80%;
+  max-width: 80%;
+  margin: auto;
+}
+
+.p-container {
+  width: 50%;
+}
+
+.section2-p1 {
+  font-size: 2.6rem;
+  font-weight: 600;
+  color: white;
+  line-height: 150%;
+}
+
+.section2-p2 {
+  font-size: 1.12rem;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.section2-img {
+  display: block;
+  width: 50%;
+  height: auto;
+  border-radius: inherit;
+  -o-object-position: center center;
+     object-position: center center;
+  -o-object-fit: cover;
+     object-fit: cover;
+}/*# sourceMappingURL=section2.css.map */
