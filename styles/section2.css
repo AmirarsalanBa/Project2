@@ -2,6 +2,7 @@
   background-image: url("../media/section2-bg.png");
   background-size: cover;
   background-position: center;
+  padding: 6rem;
 }
 
 .section2-contents {

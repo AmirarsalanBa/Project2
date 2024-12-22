@@ -1,0 +1,73 @@
+.section4 {
+  background-color: black;
+}
+.section4 .section4-content {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  flex-direction: column;
+  margin: auto;
+  max-width: 90%;
+  justify-content: center;
+  align-items: center;
+  font-weight: 100;
+}
+.section4 .section4-content .section4-p-wrapper {
+  display: flex;
+  flex-direction: column;
+  order: 1;
+  width: 100%;
+}
+.section4 .section4-content .section4-p-wrapper .section4-p1 {
+  font-family: "Playfair Display", serif;
+  font-size: 2rem;
+  letter-spacing: -0.01rem;
+  line-height: 130%;
+  margin: 0;
+}
+.section4 .section4-content .section4-p-wrapper .section4-p2 {
+  font-size: 1.25rem;
+  line-height: 160%;
+}
+.section4 .section4-content .section4-img-wrapper {
+  order: 2;
+}
+.section4 .section4-content .section4-img-wrapper img {
+  width: 100%;
+}
+
+@media screen and (min-width: 70em) {
+  .section4 .section4-content {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    max-width: 80%;
+    margin: auto;
+    flex-direction: row;
+  }
+  .section4 .section4-content .section4-p-wrapper {
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5rem;
+    order: 0;
+  }
+  .section4 .section4-content .section4-p-wrapper .section4-p1 {
+    font-family: "Playfair Display", serif;
+    font-size: 3rem;
+    letter-spacing: -0.01rem;
+    line-height: 130%;
+    margin: 0;
+  }
+  .section4 .section4-content .section4-p-wrapper .section4-p2 {
+    font-size: 1.25rem;
+    line-height: 160%;
+  }
+  .section4 .section4-content .section4-img-wrapper {
+    padding: 6rem;
+    width: 50%;
+    order: 0;
+  }
+}/*# sourceMappingURL=section4.css.map */
