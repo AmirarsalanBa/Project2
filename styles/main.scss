@@ -1,0 +1,28 @@
+// Body
+body {
+    color: white;
+    font-family: "Manrope", "Manrope Placeholder", sans-serif;
+}
+
+footer {
+    display: flex;
+    background-color: black;
+    padding: 2rem 3rem;
+    margin: auto;
+    justify-content: space-between;
+    border-top: rgba(255, 255, 255, .1) solid 1px;
+
+    .footer-logo {
+        width: 33%;
+    }
+
+    .footer-svgs {
+        width: 33%;
+        text-align: center;
+    }
+
+    p {
+        width: 33%;
+        text-align: right;
+    }
+}

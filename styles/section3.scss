@@ -1,0 +1,139 @@
+//section 3 
+
+.section3 {
+    background-image: url("../media/section3-bg.png");
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding: 1rem;
+}
+
+.section3-heading {
+    margin: 0;
+    margin-top: 3rem;
+    font-family: 'Manrope', sans-serif;
+    font-size: 1.12rem;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 1);
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+}
+
+.section3-p {
+    font-family: 'Playfair Display', serif;
+    font-size: 3.3rem;
+    font-weight: 600;
+    line-height: 130%;
+    letter-spacing: -0.1rem;
+}
+
+.section3-box-wrapper {
+    align-content: center;
+    align-items: center;
+    display: flex;
+    flex: none;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 10px;
+    height: min-content;
+    justify-content: center;
+    overflow: visible;
+    padding: 0;
+    position: relative;
+    width: min-content;
+    margin: auto;
+    flex-direction: column;
+    width: 100%;
+}
+
+.section3-box {
+    border: rgba(255, 255, 255, .1) solid 1px;
+    border-radius: 1rem;
+    padding: 2rem;
+    text-align: left;
+    width: 100%;
+}
+
+.box-img {
+    width: 20%;
+    margin-bottom: 2rem;
+}
+
+.box-p1-wrapper {
+    border: 1px solid rgba(255, 255, 255, .2);
+    align-items: center;
+    border-radius: 20px;
+    display: flex;
+    flex: none;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 12px;
+    height: min-content;
+    justify-content: center;
+    overflow: visible;
+    padding: 4px 8px;
+    position: relative;
+    width: fit-content;
+}
+
+.box-p1 {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 500;
+    line-height: 155%;
+    font-size: .9rem;
+    margin: 0;
+}
+
+.box-p2 {
+    font-family: 'Manrope', sans-serif;
+    font-size: 2.25rem;
+    font-weight: 600;
+    letter-spacing: -0.1rem;
+    line-height: 150%;
+    color: white;
+    margin: 1rem 0;
+}
+
+.box-p3 {
+    font-family: 'Manrope', sans-serif;
+    color: rgba(255, 255, 255, 0.62);
+    line-height: 150%;
+    margin: 0;
+}
+
+#box1 {
+    background-color: #97846145;
+}
+
+#box2 {
+    background-color: #97979745;
+}
+
+#box3 {
+    background-color: #8a969c40;
+}
+
+@media screen and (min-width: 80em) {
+
+    .section3-box {
+        width: 25rem;
+    }
+
+    .section3-box-wrapper {
+        align-content: center;
+        align-items: center;
+        display: flex;
+        flex: none;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        gap: 10px;
+        height: min-content;
+        justify-content: center;
+        overflow: visible;
+        padding: 0;
+        position: relative;
+        width: min-content;
+        margin: auto;
+    }
+
+}

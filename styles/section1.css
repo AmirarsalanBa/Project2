@@ -1,0 +1,84 @@
+.section1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  z-index: 1;
+  position: relative;
+  height: 100vh;
+  background-image: url("../media/bg-1.png");
+  background-size: cover;
+  background-position: center;
+  padding-top: 8rem;
+}
+
+.logo {
+  position: absolute;
+  top: 1.2rem;
+  left: 1.2rem;
+  width: 6rem;
+  height: auto;
+}
+
+.headline {
+  font-size: 3rem;
+  line-height: 1.2;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  font-family: "Playfair Display", "Playfair Display Placeholder", serif;
+  max-width: 80%;
+  font-weight: 600;
+  line-height: 3rem;
+}
+
+.subtext {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  text-align: left;
+  color: grey;
+}
+
+.visa {
+  line-height: 3.5rem;
+  font-size: 4rem;
+  margin-top: 0;
+  padding-top: 0;
+  font-weight: 900;
+  margin-bottom: 0;
+}
+
+.description {
+  font-size: 2rem;
+  margin: 2rem 0;
+}
+
+.section1-button {
+  padding: 1.5rem;
+  border: none;
+  border-radius: 15px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  font-weight: bolder;
+}
+.section1-button:hover {
+  transform: scale(1.05);
+}
+
+@media screen and (min-width: 40rem) {
+  .logo {
+    top: 4rem;
+    left: 4rem;
+    width: 8rem;
+    height: auto;
+  }
+  .headline {
+    line-height: 7rem;
+  }
+  .headline {
+    font-size: 7rem;
+  }
+}/*# sourceMappingURL=section1.css.map */
