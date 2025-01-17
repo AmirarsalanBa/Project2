@@ -19,78 +19,66 @@ $section1bg: url('../media/bg-1.png');
     background-image: $section1bg;
     background-size: cover;
     background-position:center;
-    padding-top: 8rem;
+    padding: 1rem;
 }
 
 .logo {
     position: absolute;
     top: 1.2rem;
     left: 1.2rem;
-    width: 6rem;
+    width: 6.38rem;
     height: auto;
 }
 
 .headline {
-    font-size: 3rem;
-    line-height: 1.2;
-    font-weight: bold;
-    margin-bottom: 1rem;
+    font-size: 3.1rem;
+    letter-spacing: -.15rem;
+    margin: 0rem 1rem 1rem;
     font-family: "Playfair Display", "Playfair Display Placeholder", serif;
     font-weight: 600;
     line-height: 3rem;
 }
 
-.subtext {
-    font-size: 1.2rem;
-    margin-bottom: 0.5rem;
-    margin-bottom: 0;
-    padding-bottom: 0;
-    text-align: left;
-    color: grey;
-    
-}
-
-.visa {
-    line-height: 3.5rem;
-    font-size: 4rem;
-    margin-top: 0;
-    padding-top: 0;
-    font-weight: 900;
-    margin-bottom: 0;
-}
-
 .description {
-    font-size: 2rem;
+    font-size: 1.12rem;
     margin: 2rem 0;
 }
 
-// Button
-.section1-button {
-    padding: 1.5rem;
-    border: none;
-    border-radius: 15px;
-    font-size: 1.5rem;
-    cursor: pointer;
-    transition: transform 0.3s ease;
-    font-weight: bolder;
-
-
-    &:hover {
-        transform: scale(1.05);
-    }
+.launch-my-card {
+    text-decoration: none;
+    font-size: .9rem;
+    font-weight: 500;
+    color: #000000;
+    background-color: #ffffff;
+    border: .1rem solid #ffffff1c;
+    border-radius: 3rem;
+    padding: .5rem 1.5rem;
 }
 
-@media screen and (min-width: 40rem) {
+@media screen and (min-width: 50em) {
     .logo {
         top: 4rem;
         left: 4rem;
         width: 8rem;
         height: auto;
     }
+
     .headline {
+        font-size: 7.2rem;
         line-height: 7rem;
+        margin: 3rem 20rem 1rem;
     }
-    .headline{
-        font-size: 7rem;
+
+    .description {
+        font-size: 1.7rem;
+        margin: 1.5rem auto 3rem;
+    }
+
+    .launch-my-card {
+        font-size: 1.5rem;
+        font-weight: 600;
+        border: .03rem solid #fff3;
+        border-radius: .9rem;
+        padding: 1rem 1.5rem;
     }
   }
