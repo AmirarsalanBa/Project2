@@ -15,11 +15,13 @@
 
 .section2-p2 {
     font-size: 1.125rem;
-    color: rgba(255, 255, 255, 0.6);
+    color: #ffffff99;
 }
 
 .section2-img {
     width: 100%;
+    object-fit: cover;
+    aspect-ratio: 1.1;
 }
 
 @media screen and (min-width: 50em) {
@@ -28,8 +30,9 @@
     }
 
     .section2-contents {
-        padding: 10rem 7.5rem;
+        padding: 7.5rem;
         display: flex;
+        align-items: center;
     }
 
     .section2-p1 {
@@ -38,11 +41,10 @@
     
     .section2-p2 {
         font-size: 1.5rem;
-        color: rgba(255, 255, 255, 0.6);
+        color: #ffffff99;
     }
     
     .section2-img {
-        width: 32rem;
-        object-fit: cover;
+        width: 31.7rem;
     }
   }
